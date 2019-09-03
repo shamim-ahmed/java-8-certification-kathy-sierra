@@ -3,8 +3,9 @@ package edu.buet.cse.ch04;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
-public class DateTimeTrial {
+public class LocalDateTimeTrial {
   public static void main(String... args) {
     LocalDate date = LocalDate.now();
     LocalTime time = LocalTime.now();
@@ -20,7 +21,9 @@ public class DateTimeTrial {
 
     LocalDateTime dateTime4 = LocalDateTime.parse("2019-05-04T23:12:15");
     System.out.println("Parsed LocalDateTime: " + dateTime4);
-
-
+    
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-ddTHH:mm:ss");
+    LocalDateTime dateTime5 = LocalDateTime.parse("2019-05-04T23:12:15", formatter);
+    System.out.println("Parsed LocalDatetime: " + dateTime5);
   }
 }
