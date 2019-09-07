@@ -25,5 +25,9 @@ public class PeriodTrial {
     Period period4 = Period.of(1, 6, 15);
     ZonedDateTime result4 = dateTime.minus(period4);
     System.out.printf("result4: %s%n", result4);
+
+    Period period5 = Period.ofWeeks(3);
+    ZonedDateTime result5 = dateTime.plus(period5);
+    System.out.printf("result5: %s%n", result5);
   }
 }
