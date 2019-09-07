@@ -29,5 +29,8 @@ public class PeriodTrial {
     Period period5 = Period.ofWeeks(3);
     ZonedDateTime result5 = dateTime.plus(period5);
     System.out.printf("result5: %s%n", result5);
+
+    // check the string representation of a Period object
+    System.out.printf("Period: %s%n", period5);
   }
 }

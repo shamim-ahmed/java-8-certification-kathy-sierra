@@ -29,14 +29,17 @@ public class DurationTrial {
     Duration duration5 = Duration.of(6, ChronoUnit.MINUTES);
     LocalDateTime result5 = dateTime.plus(duration5);
     System.out.printf("result5: %s%n", result5);
-    
+
     LocalTime time = LocalTime.parse("16:14:28.678");
     Duration duration6 = Duration.ofHours(15L);
     LocalTime result6 = time.plus(duration6);
     System.out.printf("result6: %s%n", result6);
-    
+
     Duration duration7 = Duration.ofSeconds(27L, 675L);
     LocalTime result7 = time.minus(duration7);
     System.out.printf("result7: %s%n", result7);
+
+    // print the string representation of a Duration object
+    System.out.printf("Duration: %s%n", duration6);
   }
 }
