@@ -9,11 +9,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * Parse dvd info in resource file, convert them to DvdInfo objects and collect them in a List
+ * 
+ * @author shamim
+ *
+ */
 public class DvdInfoParser {
+  private static final String RESOURCE_PATH = "/edu/buet/cse/ch09/DvdData.txt";
   private static final String SEPARATOR = "\\|";
 
   public static void main(String... args) {
-    URL resourceUrl = DvdInfoParser.class.getResource("/edu/buet/cse/ch09/DvdData.txt");
+    URL resourceUrl = DvdInfoParser.class.getResource(RESOURCE_PATH);
     List<DvdInfo> dvdList = new ArrayList<>();
 
     try (Stream<String> stream = Files.lines(Paths.get(resourceUrl.toURI()))) {
