@@ -22,4 +22,9 @@ public class Dog {
   public int getWeight() {
     return weight;
   }
+
+  @Override
+  public String toString() {
+    return name;
+  }
 }
