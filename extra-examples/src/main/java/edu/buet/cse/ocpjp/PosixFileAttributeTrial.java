@@ -32,7 +32,6 @@ public class PosixFileAttributeTrial {
       Set<PosixFilePermission> permissions = posixAttributes.permissions();
       String permStr = permissions.stream().map(p -> p.toString()).collect(Collectors.joining(","));
       System.out.println(permStr);
-      System.out.println();
     } catch (IOException ex) {
       System.err.println(ex);
     }
