@@ -27,4 +27,8 @@ public class Dog {
   public int getWeight() {
     return weight;
   }
+
+  public void bark() {
+    System.out.println("Woof Woof");
+  }
 }
