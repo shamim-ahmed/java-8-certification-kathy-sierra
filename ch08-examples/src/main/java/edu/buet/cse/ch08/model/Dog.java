@@ -31,4 +31,9 @@ public class Dog {
   public void bark() {
     System.out.println("Woof Woof");
   }
+
+  @Override
+  public String toString() {
+    return String.format("%s is %d years old", name, age);
+  }
 }
