@@ -3,7 +3,7 @@ package edu.buet.cse.ch08.model;
 import java.util.Objects;
 
 /**
- * A simple POJO
+ * A simple model class
  * 
  * @author shamim
  */
