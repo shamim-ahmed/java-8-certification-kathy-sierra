@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import edu.buet.cse.ch09.model.DvdInfo;
+
 /**
  * Demonstrate a better way to collect DvdInfo objects in a List
  * 

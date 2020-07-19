@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import edu.buet.cse.ch09.model.Dog;
+
 /**
  * Convert a list of Dog objects to a list of their names
  * 

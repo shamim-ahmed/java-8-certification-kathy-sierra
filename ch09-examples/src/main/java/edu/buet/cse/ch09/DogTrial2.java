@@ -3,6 +3,8 @@ package edu.buet.cse.ch09;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.buet.cse.ch09.model.Dog;
+
 public class DogTrial2 {
   public static void main(String... args) {
     Dog dog1 = new Dog("Aiko", 5, 20);

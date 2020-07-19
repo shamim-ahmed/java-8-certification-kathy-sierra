@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+import edu.buet.cse.ch09.model.DvdInfo;
+
 /**
  * Parse dvd info in resource file, convert them to DvdInfo objects and collect them in a List
  * 

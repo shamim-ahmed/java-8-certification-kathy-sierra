@@ -1,4 +1,4 @@
-package edu.buet.cse.ch09;
+package edu.buet.cse.ch09.model;
 
 public class Dog {
   private final String name;

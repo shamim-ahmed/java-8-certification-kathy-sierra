@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import edu.buet.cse.ch09.model.Person;
+
 /**
  * Various examples of usage of Collector
  * 

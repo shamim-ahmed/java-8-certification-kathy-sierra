@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import edu.buet.cse.ch09.model.Dog;
+
 /**
  * Example on partitioning a given collection based on a specific criteria
  * 
